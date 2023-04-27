@@ -19,4 +19,4 @@ jobs:
       uses: actions/checkout@v2
     - name: Test
       run: python py/test_money.py -v
-      shell: zsh
+      shell: bash 
